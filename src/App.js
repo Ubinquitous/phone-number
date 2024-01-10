@@ -27,7 +27,7 @@ const App = () => {
       <input
         type="range"
         onChange={({ target: { value } }) => setPhoneNumber(value)}
-        max={999999999999}
+        max={9999999999999}
       />
     </div>
   );
